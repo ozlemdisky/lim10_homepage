@@ -13,7 +13,9 @@ export default function Home() {
         />
         <h1 className="imagetext">
           <div>
-            <b className="text-6xl">Çok Yakında </b>
+            <b>Çok Yakında</b>
+            <hr />
+            <b className="text-xl">birlikte çalışmak dileği ile</b>
             <br></br>
           </div>
         </h1>

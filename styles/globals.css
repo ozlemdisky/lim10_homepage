@@ -9,6 +9,8 @@
 
 @layer components {
   .imagetext {
+    font-size: 48px;
+    position: absolute;
     color: white;
     position: fixed;
     font-family: "Courier New", Courier, monospace;
@@ -16,6 +18,17 @@
     left: 0;
     width: 50%;
     padding: 250px;
+    animation: animasyon 10s ease-in-out infinite;
+  }
+  @keyframes animasyon {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    5% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
   }
 }
 
