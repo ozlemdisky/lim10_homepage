@@ -9,19 +9,26 @@ export default function Home() {
           layout="fill"
           src="/images/lim10.jpg"
           alt="lim10"
-          className="object-cover"
+          className="object-cover opacity-98"
         />
-        <h1 className="imagetext">
+
+        <h1 className="imagetext ">
           <div>
             <b>Çok Yakında</b>
             <hr />
             <b className="text-xl">birlikte çalışmak dileği ile</b>
-            <br></br>
           </div>
         </h1>
 
-        <div className=""></div>
+        <div className="p">
+          <Image
+            layout="fill"
+            src="/images/logo.png"
+            className="0bject-scale-down  "
+          />
+        </div>
       </div>
+
       <div className="bg-primary-500 col-span-3 flex items-center">
         <div className="title-container">
           <p className="aside-title">

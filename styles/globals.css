@@ -3,21 +3,28 @@
 @tailwind utilities;
 
 @layer components {
-  .site-container {
+  .p {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 250px;
   }
 }
 
 @layer components {
   .imagetext {
-    font-size: 48px;
-    position: absolute;
+    font-size: 88px;
+    position: relative;
     color: white;
-    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
     font-family: "Courier New", Courier, monospace;
     text-align: center;
     left: 0;
-    width: 50%;
-    padding: 250px;
+
     animation: animasyon 10s ease-in-out infinite;
   }
   @keyframes animasyon {
